@@ -28,7 +28,7 @@ img{
 
     0%{
         transform: scale(0);
-        transform: translateY(300px);
+        transform: translateX(300px);
     }
     50%{
         transform: scale(1.2);

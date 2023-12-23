@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link } from "react-router-dom";
 import "./Navbar.css"
 
 export default function Navbar() {
@@ -190,15 +189,18 @@ export default function Navbar() {
       </div>
       <div className='navList'>
         <ul>
-          <li><a className='active' href="#Hero"><Link to={"/"}>Home</Link></a></li>
-          <li><a href="#Category" ><Link to={"/Category"}>New</Link></a></li>
-          <li><a href="#Collection" ><Link to={"/Collection"}>Collection</Link></a></li>
-          <li><a href="#Product" ><Link to={"/Product"}>Products</Link></a></li>
+        <ul>
+        <li><a className='active' href="#Hero">Home</a></li>
+          <li><a href="#Category" >New</a></li>
+          <li><a href="#Collection" >Collection</a></li>
+          <li><a href="#Product" >Products</a></li>
+        </ul>
+
       
         </ul>
       </div>
       <div>
-       {/* <a href='#icon' onClick={iconDark} style={{display:"block"}} id='Dark' ><i class="fa-solid fa-moon" ></i></a> */}
+       <a href='#icon' onClick={iconDark} style={{display:"block"}} id='Dark' ><i class="fa-solid fa-moon" ></i></a>
        <a href='#icon' onClick={iconLight} style={{display:"none"}} id='Light'><i class="fa-solid fa-sun"></i></a>
       </div>
 
@@ -210,10 +212,10 @@ export default function Navbar() {
     <div className='navResponsive'>
 
         <ul>
-        <li><a className='active' href="#Hero"><Link to={"/"}>Home</Link></a></li>
-          <li><a href="#Category" ><Link to={"/Category"}>New</Link></a></li>
-          <li><a href="#Collection" ><Link to={"/Collection"}>Collection</Link></a></li>
-          <li><a href="#Product" ><Link to={"/Product"}>Products</Link></a></li>
+        <li><a className='active' href="#Hero">Home</a></li>
+          <li><a href="#Category" >New</a></li>
+          <li><a href="#Collection" >Collection</a></li>
+          <li><a href="#Product" >Products</a></li>
         </ul>
 
     </div>

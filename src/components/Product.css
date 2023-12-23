@@ -38,3 +38,13 @@
     font-size: 0.9em;
 
 }
+
+@media only screen and (max-width: 400px) {
+
+    .productSection div{
+        margin-right: 0px;
+        margin-top: 30px;
+
+    }
+    
+}

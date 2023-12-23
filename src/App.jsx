@@ -1,5 +1,4 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import Navbar from "./components/Navbar";
@@ -39,12 +38,12 @@ export default function App() {
         ) : (
           <div className="your-component-content">
             <Navbar />
-            <Routes>
-              <Route path="/" element={<Hero />} />
-              <Route path="/Category" element={<Category />} />
-              <Route path="/Collection" element={<Collection />} />
-              <Route path="/Product" element={<Product />} />
-            </Routes>
+           
+            <Hero />
+            <Category />
+            <Collection />
+            <Product />
+          
             <Footer />
           </div>
         )}

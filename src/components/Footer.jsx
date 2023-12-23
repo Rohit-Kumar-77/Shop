@@ -3,6 +3,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
+ 
     <div className="main" id="Footer">
       <h1 className="head1">Brands We Sell</h1>
 
@@ -47,6 +48,10 @@ export default function Footer() {
         </div>
         <div>
           <h2>Contact us</h2>
+          <p>
+                <a href="https://www.instagram.com/rohit_r.singhani/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/923170268157" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          </p>
         </div>
       </div>
 
